@@ -6,21 +6,41 @@
 Welcome to shenyang's documentation!
 =========================================
 
-.. toctree::
-   :maxdepth: 4
-   :caption: Introduction
-
-
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Digital Design
 
+   verilog
+   eda
+
 
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tool
+   :maxdepth: 2
+   :caption: Digital Verification
+
+   sverilog
+   uvm
+
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: SoC Validation
+
+   gdb
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Design Tools
+
+   git
+   python
+   linux
 
 
 
