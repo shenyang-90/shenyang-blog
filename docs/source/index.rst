@@ -25,7 +25,6 @@ Welcome to shenyang's documentation!
 
 
 
-
 .. toctree::
    :maxdepth: 2
    :caption: SoC Validation
@@ -41,6 +40,14 @@ Welcome to shenyang's documentation!
    git
    python
    linux
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Others
+
+   resource
 
 
 
