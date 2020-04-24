@@ -28,6 +28,10 @@ Create Repository
    [/home]> git branch --unset-upstream
    [/home]> git push --set-upstream origin master
 
+.. note::
+
+   Add `sharedRepository = 1` in `config` file.
+
 
 
 Change Repository - New
