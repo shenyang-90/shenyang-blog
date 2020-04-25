@@ -2,44 +2,16 @@
 Python
 ======
 
+.. toctree::
+   :maxdepth: 2
 
-String
-------
+   python_string
+   python_excel
+   python_argument
+   python_schemdraw
+   python_serial
+   python_os
 
-
-
-
-Excel
------
-
-
-
-
-
-Argument
---------
-
-
-
-
-SchemDraw
----------
-
-
-
-
-
-Serial
-------
-
-
-
-
-
-
-
-OS
---
 
 
 
