@@ -17,6 +17,8 @@ Useful Command
 
    sed -i "s/oldstring/newstring/g" `grep oldstring -rl yourdir`
 
+   od -h xxx.bin
+
 
 
 

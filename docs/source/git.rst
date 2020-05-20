@@ -2,6 +2,18 @@
 Git
 ===
 
+Basic Command
+-------------
+
+.. code::
+
+   git status
+   git add xxx(files / folder)
+   git commit -m "xxx"
+   git pull --rebase
+   git push
+
+
 
 Git Global Setup
 ----------------
@@ -58,6 +70,11 @@ Change Repository - Existing
    git push -u origin --tags
 
 
+.. code::
+
+   git remote set-url origin git@xxxx.git
+
+
 
 Brach
 -----
@@ -78,3 +95,24 @@ Existing Brach
 
    git checkout -b local_branch origin/remote_branch
    git push origin remote_branch local_branch
+
+
+
+
+Github / Gitlab with SSH Key
+----------------------------
+
+**Generate SSH Key**
+
+.. code::
+
+   ssh-keygen -t rsa -C "xxxx@xxxx.com"
+
+
+The SSH Key is generated in ``~/.ssh/`` folder.
+
+
+**Add SSH Key**
+
+1. In Github / Gitlab, Settings -> SSH Key -> New SSH Key.
+#. Copy ``~/.ssh/id_rsa.pub`` to Webpage.

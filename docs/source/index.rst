@@ -13,6 +13,8 @@ Welcome to shenyang's documentation!
 
    verilog
    eda
+   circuit
+   foundry
 
 
 
