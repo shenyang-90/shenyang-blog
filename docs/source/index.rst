@@ -12,6 +12,7 @@ Welcome to shenyang's documentation!
    :caption: Digital Design
 
    verilog
+   spinalhdl
    eda
    circuit
    foundry
