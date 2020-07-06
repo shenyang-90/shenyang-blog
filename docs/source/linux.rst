@@ -21,6 +21,52 @@ Useful Command
 
 
 
+Compress and Uncompress
+-----------------------
+
+.. code::
+
+   tar -xvf xxx.tar
+
+   tar -czvf xxx.tar.gz xxx
+
+   jzip -d xxx.gz
+
+   xz -d xxx.tar.xz
+
+
+.. note::
+
+   1. *.tar - tar -xvf
+
+   #. *.gz - gzip -d or gunzip
+
+   #. *.tar.gz or *.tgz - tar -xzf
+
+   #. *.bz2 - bzip2 -d or bunzip2
+
+   #. *.tar.bz2 -tar -xjf
+
+   #. *.Z - uncompress
+
+   #. *.tar.Z - tar -xZf
+
+   #. *.rar - unrar
+
+   #. *.zip - unzip
+
+
+
+VIM
+---
+
+Plug - EasyAlign
+++++++++++++++++
+
+**Download** https://github.com/junegunn/vim-easy-align
+
+1. vipga
+#. `=` or `Ctrl + x`
 
 
 
